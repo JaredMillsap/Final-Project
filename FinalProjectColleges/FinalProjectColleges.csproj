@@ -4,4 +4,23 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Dapper" />
+    <None Remove="MySql.Data" />
+    <None Remove="Views\School\" />
+    <None Remove="Views\Home\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MySql.Data" Version="8.0.27" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\School\" />
+    <Folder Include="Views\Home\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Portfolio Website\images\Bestbuy.png">
+      <Link>Views\Home\Images\Bestbuy.png</Link>
+    </None>
+  </ItemGroup>
 </Project>

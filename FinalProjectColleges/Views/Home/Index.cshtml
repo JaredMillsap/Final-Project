@@ -2,7 +2,73 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+        }
+
+        .menuitem {
+            padding: 8px;
+            margin-top: 7px;
+            border-bottom: 1px solid #f1f1f1;
+        }
+
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+
+        .right {
+            background-color: lightblue;
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+    </style>
+</head>
+<body style="font-family:Verdana;">
+
+    <div style="background-color:#f1f1f1;padding:15px;">
+        <h1>Find the Perfect University for you</h1>
+        <h3>Here you can locate your school of choice that best fits your goals and aspirations</h3>
+    </div>
+    <img src="/Images/Bestbuy.png" />
+    <div style="overflow:auto">
+        <div class="menu">
+            <div class="menuitem">Tuition</div>
+            <div class="menuitem">Location</div>
+            <div class="menuitem">Enrollment</div>
+            <div class="menuitem"></div>
+        </div>
+
+        <div class="main">
+            <h2>Welcome</h2>
+            <p>Searching for the perfect career can be excting and challenging. We want to make the decision a little easier for you by creating a pace where you can find the institution perfect for you.
+        </div>
+
+        <div class="right">
+            <h2>Programs</h2>
+            <p>Trades/Certificate</p>
+            <p>Undergraduate<p>
+            <p>Master's.</p>
+            <p>Phd</p>
+            <p></p>
+        </div>
+    </div>
+
+   
+
+</body>
+</html>
